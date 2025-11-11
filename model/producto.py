@@ -15,7 +15,7 @@ class Producto:
         return self.__precio
 
 class Antibiotico(Producto):
-    def __init__(self, nombre: str, precio: float, dosis: float, tipoAnimal: str):
+    def __init__(self, nombre: str, precio: float, dosis: int, tipoAnimal: str):
         super().__init__(nombre, precio)
         self.__dosis = dosis
         self.__tipoAnimal = tipoAnimal
